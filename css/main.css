@@ -1,0 +1,151 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-family: "Rubik", sans-serif;
+  background-color: #cbcac9;
+}
+
+.fonts {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.img-heading {
+  height: 106px;
+}
+
+.nav-img {
+  width: 100%;
+  height: 106px;
+}
+
+.social {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0.5;
+}
+
+.nav-heading {
+  background-color: #000;
+  padding: 0 20px;
+  border-top: 2px solid #59584f;
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media (max-width: 700px) {
+  .nav-heading {
+    flex-direction: column;
+  }
+  .container,
+  .two-img {
+    flex-direction: column;
+  }
+}
+
+.nav-heading a {
+  text-decoration: none;
+  color: #59584f;
+  text-transform: uppercase;
+  padding: 20px 10px;
+}
+.nav-heading a:hover,
+.nav-heading a:active {
+  background-color: #3c98f0;
+  color: #fff;
+}
+
+.section-img {
+  padding: 10px;
+}
+
+.section-img img {
+  width: 100%;
+}
+
+/* end header */
+
+/* start section */
+.container {
+  padding: 10px 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 0 20px;
+  border-bottom: 1px solid #59584f;
+}
+
+/* article */
+article {
+  padding: 5px;
+}
+
+.container-art p {
+  text-align: justify;
+}
+
+.main-heading {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #3998f1;
+  font-size: 30px;
+  margin: 25px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #59584f;
+}
+
+.two-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.img-contain {
+  padding: 5px;
+  border: 1px solid #fff;
+}
+
+/* aside */
+
+aside {
+  max-width: 350px;
+  padding-top: 5px;
+}
+
+.one {
+  width: 300px;
+}
+
+.second {
+  color: #cf8435;
+  margin-bottom: 0;
+}
+
+.third {
+  color: #3c98f0;
+  margin-top: 0;
+}
+.news-p {
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.A-m {
+  text-decoration: none;
+  color: #494949;
+}
